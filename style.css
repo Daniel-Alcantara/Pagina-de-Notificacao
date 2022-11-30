@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+*{
+  font-family: "Plus Jakarta Sans",sans-serif;
+}
+body{
+  margin: 0px;
+  border: 0px;
+}
+.container{
+  background-color: #f9fafe;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 10rem;
+  position: absolute;
+}
+.box_full_content{
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 2rem;
+  padding: 2.5rem;
+}
+.content_text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.content_notification{
+  display: flex;
+  align-items: center;
+}
+.content_notification h3{
+  font-size: 30px;
+  color: #0f3269;
+  font-weight: bold;
+  margin: 0px;
+  margin-right: 1rem;
+}
+.content_notification p{
+  margin: 0px;
+  font-size: 20px;
+  padding: .3rem .6rem;
+  background-color: #0f3269;
+  border-radius: 10px;
+  color: white;
+}
+.content_markall a{
+  font-size: 18px;
+}
+.content_markall a:hover{
+  color: grey;
+  cursor: pointer;
+}
+
+.content_desmarkall a{
+    font-size: 18px;
+  }
+  .content_desmarkall a:hover{
+    color: grey;
+    cursor: pointer;
+  }
+.box_container_person{
+  display: flex;
+  align-items: center;
+  background-color: #f6fafd;
+  padding: .5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+.box_conteudo{
+  display: flex;
+  margin-left: 1.5rem;
+}
+.box_conteudo p:nth-child(1){
+  font-size: 23px;
+}
+.box_conteudo strong:nth-child(1){
+  color: #0f1219;
+}
+.box_conteudo strong:nth-child(2){
+  color: #5f6573;
+}
+.box_conteudo p{
+  margin: 0px;
+  color: #adb1bc;
+  font-weight: 500;
+}
+.box_conteudo p:nth-child(2){
+  font-size: 18px;
+}
+.image_person img{
+  width: 70px;
+  height: 70px;
+}
+.circle{
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
